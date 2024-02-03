@@ -19,6 +19,8 @@ The README Generator is a command-line tool designed to streamline the process o
 - [Tests](#tests)
 - [Questions](#questions)
 - [Screenshot](#screenshot)
+- [Repository](#repository)
+- [Demonstration](#demonstration)
 
 ## Installation
 
@@ -52,8 +54,8 @@ To use the README Generator, follow these steps:
 
 3. Once all prompts are completed, the README.md file will be generated in the project directory.
 
-## Demonstration video
- [Demo](https://drive.google.com/file/d/1kcbOTWFWuVFzI9qptlNUbQC39lo3Kfub/view?usp=drive_link)
+## Demonstration
+ [Demo video](https://drive.google.com/file/d/1kcbOTWFWuVFzI9qptlNUbQC39lo3Kfub/view?usp=drive_link)
 
 
 ## Features
@@ -96,4 +98,7 @@ If you have any questions about the project, feel free to reach out:
 ## Screenshot
 
 ![Screenshot](./utils/screenshot.PNG)
+
+## Repository 
+- You can find the repo location by accesing this [link](https://github.com/fishmon/ReadMeGenerator) 
 
