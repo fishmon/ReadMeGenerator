@@ -1,6 +1,8 @@
 
 # ReadMe Generator
 
+[![License]( https://img.shields.io/badge/License-MIT-yellow.svg )]( https://opensource.org/licenses/MIT )
+
 ## Description
 The README Generator is a command-line tool designed to streamline the process of creating high-quality README files for your projects. With just a few simple prompts, the README Generator collects essential information about your project and automatically generates a well-structured README.md file.
 
