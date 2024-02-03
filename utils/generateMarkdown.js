@@ -1,7 +1,24 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  
+  const licenseBadgeURLs = {
+    "MIT": "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "APACHE2.0": "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "Boost1.0": "https://img.shields.io/badge/License-Boost%201.0-lightblue.svg",
+    "GLP3.0": "https://img.shields.io/badge/License-GPLv3-blue.svg",
+    "BSD2": "https://img.shields.io/badge/License-BSD%202--Clause-orange.svg",
+    "BSD3": "https://img.shields.io/badge/License-BSD%203--Clause-blue.svg",
+    "None": ""
+  };
+
+  // Generate license badge markdown based on selected license
+  const licenseBadge = data.license ? `[![License]( ${licenseBadgeURLs[data.license]} )]( https://opensource.org/licenses/${data.license} )` : '';
+
   return `
 # ${data.title}
+
+${licenseBadge}
+
 
 ## Description
 ${data.description}
